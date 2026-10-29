@@ -1,0 +1,3 @@
+#!/bin/bash
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:${PATH:-}"
+exec /opt/homebrew/bin/python3 "/Users/nipunmadhushan/personalProj/ghsw/ghsw.py" "$@"
